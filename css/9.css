@@ -2,7 +2,9 @@
 
 @font-face {
     font-family: Go-Mono;
-    src: url(Go-Mono.ttf);
+    src: url(go-mono.woff2) format('woff2'), // preloaded
+	 url(go-mono.woff) format('woff'),
+	 url(Go-Mono.ttf) format('ttf');
 }
   
 * {
