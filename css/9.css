@@ -1,0 +1,15 @@
+/* 9 them */
+
+@font-face {
+    font-family: Go-Mono;
+    src: url(Go-Mono.ttf);
+}
+  
+* {
+    font-family: Go-Mono, monospace;
+}
+
+body {
+    background-color: #ffffea;
+}
+
